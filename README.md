@@ -6,5 +6,5 @@ Node.js
 
 EZTV API module (https://github.com/moesalih/node-eztv)
 
-NB! As of 05.05.2016, EZTV API module's index.js needs the following added before "episode.magnet" declaration:
+NB! As of 05.05.2016, EZTV API module's `index.js` needs the following added before `episode.magnet` declaration:
 `episode.size = String($(e).find("td").eq(3).text());`
