@@ -3,7 +3,6 @@ const eztv = require('eztv');
 module.exports = {
 
 	reply: function(bot, tags, user){
-
 		return getTorrents(bot);
 	}
 };
